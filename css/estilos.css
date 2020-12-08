@@ -57,7 +57,7 @@ img {
 /* Menusito de Hamburguesa */
 
 .hamburguesa {
-    background-color: black;
+    /* background-color: black; */
     width: 30px;
     height: 30px;
     position: fixed;
