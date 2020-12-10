@@ -223,18 +223,11 @@ img {
 
 /* Card Articulos */
 
-.contenedor-articulos {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .card-articulo {
-    flex-basis: calc(33.3% - .5rem);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     border: 2px solid #fad643;
     padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .texto-articulo h2 {
@@ -258,8 +251,21 @@ img {
 }
 
 .card-articulo .boton {
-    width: 30%;
+    width: 50%;
+    padding: .5rem;
+    text-align: center;
     border: 2px solid #b69121;
     border-radius: 1rem;
     transition: all .3s ease;
+}
+
+@media (min-width:468px) {
+    .contenedor-articulos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card-articulo {
+        flex-basis: calc(33.3% - .5rem);
+    }
 }
