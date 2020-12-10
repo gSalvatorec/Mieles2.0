@@ -259,6 +259,22 @@ img {
     transition: all .3s ease;
 }
 
+.Precio {
+    margin: .5rem auto;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.categoria {
+    margin: .5rem auto;
+    font-weight: bolder;
+}
+
+.card-articulo span {
+    font-weight: bolder;
+    color: #805b10
+}
+
 @media (min-width:468px) {
     .contenedor-articulos {
         display: flex;
