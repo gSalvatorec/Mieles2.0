@@ -223,6 +223,13 @@ img {
 
 /* Card Articulos */
 
+.header-articulos h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 4rem;
+}
+
 .card-articulo {
     border: 2px solid #fad643;
     padding: 1rem;
