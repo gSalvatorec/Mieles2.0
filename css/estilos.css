@@ -26,18 +26,6 @@ img {
 }
 
 
-/* Header */
-
-.site-header {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/IMG-20201021-WA0033.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 /* Logo */
 
 .logo {
@@ -189,7 +177,7 @@ img {
 .contenido-slider {
     flex-shrink: 0;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
